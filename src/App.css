@@ -1,0 +1,274 @@
+body,
+html,
+#root,
+.app,
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.link {
+  margin-top: 20px;
+  color: yellow;
+  font-size: 2.5rem;
+}
+
+.container {
+  font-size: 4rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  background-image: url("./bg.png");
+}
+
+.loginForm {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 5rem;
+  justify-content: center;
+}
+
+.wrapper {
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.form-title {
+  font-size: 6rem;
+
+  margin-bottom: 300px;
+}
+
+.inline-form {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+
+.inputField {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.input {
+  box-sizing: border-box;
+  outline: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 3rem;
+  background: transparent;
+  border: none;
+}
+
+.submitButton {
+  padding-top: 16px;
+  margin: auto;
+  display: flex;
+  margin-top: 200px;
+}
+
+.link {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.btn {
+  width: 100%;
+  height: 100px;
+  min-width: 400px;
+  max-width: 400px;
+  margin-top: 300px;
+  margin: auto;
+
+  color: #0c0c0c;
+  padding: 12px;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  cursor: pointer;
+  background-image: url("./Login_button.png");
+  background-size: 400px 100px;
+
+  background-repeat: no-repeat;
+}
+
+.panel {
+  width: 421px;
+  height: 309px;
+  background-image: url("./Container.png");
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.city {
+  margin-top: 20px;
+
+  margin-left: 50px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.temp {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-left: 300px;
+}
+.clouds {
+  width: 144px;
+  height: 108px;
+  background-image: url("./Clouds_icon.png");
+  background-repeat: no-repeat;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+.rain {
+  width: 144px;
+  height: 108px;
+  background-image: url("./Rain_icon.png");
+  background-repeat: no-repeat;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+.clearsky {
+  width: 144px;
+  height: 108px;
+  background-image: url("./Sun_icon.png");
+  background-repeat: no-repeat;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+.newsPanel {
+  width: 421px;
+  height: 309px;
+  background-image: url("./Container.png");
+  color: black;
+  margin: 20px;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 20px;
+}
+
+.news-title {
+  color: blue;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-left: 160px;
+}
+
+.title {
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.weather-title {
+  color: blue;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+
+.content {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.date {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+.sportsPanel {
+  width: 421px;
+  height: 309px;
+  background-image: url("./Container.png");
+  color: black;
+  margin: 20px;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.sports-title {
+  color: blue;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+
+.search-input {
+  margin-left: 120px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: blue;
+}
+
+.wins-list {
+  font-size: 1rem;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.teams {
+  background-color: rgb(238, 238, 39);
+  padding: 5px 5px;
+  border: none;
+}
+
+.clothesPanel {
+  width: 421px;
+  height: 309px;
+  background-image: url("./Container.png");
+  color: black;
+  margin: 20px;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.pieChart {
+  height: 200px;
+  margin-top: 10px;
+}
+
+.clothes-title {
+  color: blue;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-left: 150px;
+}
