@@ -64,6 +64,7 @@ html,
   font-size: 3rem;
   background: transparent;
   border: none;
+  border-bottom: #0c0c0c;
 }
 
 .submitButton {
@@ -195,7 +196,7 @@ html,
   margin-left: 150px;
 }
 
-.content {
+.rsscontent {
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;

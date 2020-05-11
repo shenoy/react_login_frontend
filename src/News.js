@@ -41,7 +41,7 @@ class News extends React.Component {
         <div className ="news-title">News</div>
         <div className="title">{this.state.title}</div>
         <div className="date">{this.state.date}</div>
-        <div className="content">{this.state.content}</div>
+        <div className="rsscontent">{this.state.content}</div>
       </div>
     );
   }

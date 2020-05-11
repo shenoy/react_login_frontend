@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import WeatherPanel from "./WeatherPanel";
 import News from "./News";
 import Sports from "./Sports";
+import Clothes from './Clothes';
 
 class App extends React.Component {
   async componentDidMount() {
@@ -73,6 +74,7 @@ class App extends React.Component {
                 <WeatherPanel />
                 <News />
                 <Sports />
+                <Clothes/>
               </div>
               <div className="logout">
                 <SubmitButton
