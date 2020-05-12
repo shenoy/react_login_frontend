@@ -21,10 +21,10 @@ html,
   align-items: center;
   justify-content: center;
   background-color: #282c34;
-  background-image: url("./bg.png");
+  background-image: url("./images/bg.png");
 }
 
-.landing-text{
+.landing-text {
 }
 
 .loginForm {
@@ -44,13 +44,12 @@ html,
 
 .form-title {
   font-size: 6rem;
-
 }
 
 .inline-form {
   display: flex;
   width: 80%;
-  margin-left: 10%
+  margin-left: 10%;
 }
 
 .inputField {
@@ -96,7 +95,7 @@ html,
   border-radius: 50px;
   background: #fff;
   cursor: pointer;
-  background-image: url("./Login_button.png");
+  background-image: url("./images/Login_button.png");
   background-size: 400px 100px;
   position: relative;
 
@@ -107,13 +106,12 @@ html,
   float: left;
   width: 421px;
   height: 309px;
-  background-image: url("./Container.png");
+  background-image: url("./images/Container.png");
   color: black;
   justify-content: center;
   align-items: center;
   margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .city {
@@ -132,7 +130,7 @@ html,
 .clouds {
   width: 144px;
   height: 108px;
-  background-image: url("./Clouds_icon.png");
+  background-image: url("./images/Clouds_icon.png");
   background-repeat: no-repeat;
   margin-left: 150px;
   margin-bottom: 30px;
@@ -141,7 +139,7 @@ html,
 .rain {
   width: 144px;
   height: 108px;
-  background-image: url("./Rain_icon.png");
+  background-image: url("./images/Rain_icon.png");
   background-repeat: no-repeat;
   margin-left: 150px;
   margin-bottom: 30px;
@@ -150,7 +148,7 @@ html,
 .clearsky {
   width: 144px;
   height: 108px;
-  background-image: url("./Sun_icon.png");
+  background-image: url("./images/Sun_icon.png");
   background-repeat: no-repeat;
   margin-left: 150px;
   margin-bottom: 30px;
@@ -162,14 +160,13 @@ html,
 
   width: 421px;
   height: 309px;
-  background-image: url("./Container.png");
+  background-image: url("./images/Container.png");
   color: black;
   margin: 20px;
   font-size: 1.5rem;
   justify-content: center;
   align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .dashboard {
@@ -225,14 +222,13 @@ html,
 
   width: 421px;
   height: 309px;
-  background-image: url("./Container.png");
+  background-image: url("./images/Container.png");
   color: black;
   margin: 20px;
   font-size: 1.5rem;
   justify-content: center;
   align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .sports-title {
@@ -269,14 +265,13 @@ html,
   width: 30%;
   width: 421px;
   height: 309px;
-  background-image: url("./Container.png");
+  background-image: url("./images/Container.png");
   color: black;
   margin: 20px;
   font-size: 1.5rem;
   justify-content: center;
   align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .pieChart {
@@ -299,18 +294,16 @@ html,
 
   width: 421px;
   height: 309px;
-  background-image: url("./Container.png");
+  background-image: url("./images/Container.png");
   color: black;
   margin: 20px;
   font-size: 1.5rem;
   justify-content: center;
   align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.logout {
-}
+
 
 .todosPanel {
   float: left;
@@ -318,14 +311,13 @@ html,
 
   width: 421px;
   height: 309px;
-  background-image: url("./Container.png");
+  background-image: url("./images/Container.png");
   color: black;
   margin: 20px;
   font-size: 1.5rem;
   justify-content: center;
   align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .photos-title {
@@ -346,6 +338,6 @@ html,
   margin-left: 150px;
 }
 
-.file-input{
+.file-input {
   margin-left: 50px;
 }

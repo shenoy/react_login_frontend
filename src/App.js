@@ -11,6 +11,7 @@ import News from "./News";
 import Sports from "./Sports";
 import Clothes from "./Clothes";
 import Todos from "./Todos";
+import Photos from "./Photos";
 
 class App extends React.Component {
   async componentDidMount() {
@@ -78,6 +79,7 @@ class App extends React.Component {
                 <Sports />
                 <Clothes />
                 <Todos />
+                <Photos />
               </div>
               <div className="logout">
                 <SubmitButton
