@@ -2748,7 +2748,7 @@ class Sports extends React.Component {
           </button>
         </form>
         <div className="wins-list">
-          {this.state.value} victories:
+          {this.state.value} defeated:
           {this.state.wins.map((x) => (
             <button className="teams" key={x}>{x}</button>
           ))}
