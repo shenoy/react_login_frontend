@@ -24,6 +24,9 @@ html,
   background-image: url("./bg.png");
 }
 
+.landing-text{
+}
+
 .loginForm {
   box-sizing: border-box;
   width: 100%;
@@ -42,13 +45,12 @@ html,
 .form-title {
   font-size: 6rem;
 
-  margin-bottom: 300px;
 }
 
 .inline-form {
   display: flex;
-  margin: auto;
   width: 80%;
+  margin-left: 10%
 }
 
 .inputField {
@@ -71,7 +73,6 @@ html,
   padding-top: 16px;
   margin: auto;
   display: flex;
-  margin-top: 200px;
 }
 
 .link {
@@ -85,7 +86,6 @@ html,
   height: 100px;
   min-width: 400px;
   max-width: 400px;
-  margin-top: 300px;
   margin: auto;
 
   color: #0c0c0c;
@@ -98,11 +98,13 @@ html,
   cursor: pointer;
   background-image: url("./Login_button.png");
   background-size: 400px 100px;
+  position: relative;
 
   background-repeat: no-repeat;
 }
 
 .panel {
+  float: left;
   width: 421px;
   height: 309px;
   background-image: url("./Container.png");
@@ -110,6 +112,8 @@ html,
   justify-content: center;
   align-items: center;
   margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .city {
@@ -153,6 +157,9 @@ html,
 }
 
 .newsPanel {
+  float: left;
+  width: 30%;
+
   width: 421px;
   height: 309px;
   background-image: url("./Container.png");
@@ -161,13 +168,16 @@ html,
   font-size: 1.5rem;
   justify-content: center;
   align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .dashboard {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin-inline: 20px;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .news-title {
@@ -210,6 +220,9 @@ html,
 }
 
 .sportsPanel {
+  float: left;
+  width: 30%;
+
   width: 421px;
   height: 309px;
   background-image: url("./Container.png");
@@ -218,6 +231,8 @@ html,
   font-size: 1.5rem;
   justify-content: center;
   align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .sports-title {
@@ -250,6 +265,8 @@ html,
 }
 
 .clothesPanel {
+  float: left;
+  width: 30%;
   width: 421px;
   height: 309px;
   background-image: url("./Container.png");
@@ -258,6 +275,8 @@ html,
   font-size: 1.5rem;
   justify-content: center;
   align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .pieChart {
@@ -272,4 +291,61 @@ html,
   margin-bottom: 25px;
   margin-top: 15px;
   margin-left: 150px;
+}
+
+.photosPanel {
+  float: left;
+  width: 30%;
+
+  width: 421px;
+  height: 309px;
+  background-image: url("./Container.png");
+  color: black;
+  margin: 20px;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.logout {
+}
+
+.todosPanel {
+  float: left;
+  width: 30%;
+
+  width: 421px;
+  height: 309px;
+  background-image: url("./Container.png");
+  color: black;
+  margin: 20px;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.photos-title {
+  color: blue;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+
+.todos-title {
+  color: blue;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+
+.file-input{
+  margin-left: 50px;
 }

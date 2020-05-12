@@ -23,7 +23,7 @@ class WeatherPanel extends React.Component {
 
   async getWeather(city) {
     let url =
-      "http://api.openweathermap.org/data/2.5/weather?q=" +
+      "/http://api.openweathermap.org/data/2.5/weather?q=" +
       city +
       "&units=metric&appid=d0a10211ea3d36b0a6423a104782130e";
     console.log(url);
