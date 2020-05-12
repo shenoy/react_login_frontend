@@ -5,7 +5,7 @@ class Photos extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      file: null,
+      image: null,
       url: "",
     };
 
@@ -28,7 +28,7 @@ class Photos extends React.Component {
         const progress = Math.round(
           (snapshot.bytesTransferred / snapshot.totalBytes) * 100
         );
-        this.setState(progress);
+        this.setState({ progress });
       },
       (error) => {
         console.log(error);
@@ -37,8 +37,11 @@ class Photos extends React.Component {
         storage
           .ref("images")
           .child(image.name)
-          .getDownloadURL.then((url) => console.log(url));
-        this.setState({ url: this.url });
+          .getDownloadURL()
+          .then((url) => {
+            console.log(url);
+            this.setState({ url });
+          });
       }
     );
   };
@@ -57,7 +60,7 @@ class Photos extends React.Component {
           src={this.state.url || "http://via.placeholder.com/200x100 "}
           alt="uploaded images"
           height="200"
-          width="100"
+          width="200"
         />
       </div>
     );
