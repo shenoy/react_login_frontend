@@ -12,18 +12,21 @@ class Photos extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange = () => {
-   
+  handleChange = (event) => {
+    const image = event.target.files[0];
+    this.setState(() => ({ image }));
   };
 
   handleSubmit = () => {
-   
+const {image} =this.state;
+
+
   };
   render() {
     return (
       <div className="photosPanel">
         <div className="photos-title">Photos</div>
-        <input className="file-input" type="file" />
+        <input onChange={this.handleChange} className="file-input" type="file" />
         <button>Upload</button>
         <div>Photos</div>
       </div>
