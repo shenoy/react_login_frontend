@@ -303,8 +303,6 @@ html,
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-
-
 .todosPanel {
   float: left;
   width: 30%;
@@ -340,4 +338,47 @@ html,
 
 .file-input {
   margin-left: 50px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.image1 {
+  float: left;
+  width: 40%;
+  margin: 5px;
+  margin-left: 7.5%;
+}
+
+.image2 {
+  float: left;
+  width: 40%;
+  margin: 5px;
+}
+
+.image3 {
+  float: left;
+  width: 40%;
+  margin: 5px;
+  margin-left: 7.5%;
+}
+
+.image4 {
+  float: left;
+  width: 40%;
+  margin: 5px;
+}
+
+.progress {
+  width: 70%;
+  margin-left: 15%;
+  height: 10px;
+  background-color: yellow;
+  float: bottom;
+    border-radius: 90%;
+
+}
+
+.img-btn {
+  background-color: yellowgreen;
+  border-radius: 5px;
 }

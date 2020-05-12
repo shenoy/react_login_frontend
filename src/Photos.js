@@ -6,12 +6,13 @@ class Photos extends React.Component {
     super(props);
     this.state = {
       image: null,
-      url: "",
+      url: [],
+      progress: 0
     };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    console.log(this.state, "photos state");
+    console.log(this.state.url, "url state");
   }
 
   handleChange = (event) => {
@@ -40,7 +41,8 @@ class Photos extends React.Component {
           .getDownloadURL()
           .then((url) => {
             console.log(url);
-            this.setState({ url });
+
+            this.setState({ url: [...this.state.url, url] });
           });
       }
     );
@@ -54,14 +56,37 @@ class Photos extends React.Component {
           className="file-input"
           type="file"
         />
-        <button onClick={this.handleSubmit}>Upload</button>
-        <br />
+        <button className = "img-btn" onClick={this.handleSubmit}>Upload</button>
+
         <img
-          src={this.state.url || "http://via.placeholder.com/200x100 "}
+          className="image1"
+          src={this.state.url[0] || "http://via.placeholder.com/150 "}
           alt="uploaded images"
-          height="200"
-          width="200"
+          height="75"
+          width="100"
         />
+        <img
+          className="image2"
+          src={this.state.url[1] || "http://via.placeholder.com/150 "}
+          alt="uploaded images"
+          height="75"
+          width="100"
+        />
+        <img
+          className="image3"
+          src={this.state.url[2] || "http://via.placeholder.com/150 "}
+          alt="uploaded images"
+          height="75"
+          width="100"
+        />
+        <img
+          className="image4"
+          src={this.state.url[3] || "http://via.placeholder.com/150 "}
+          alt="uploaded images"
+          height="75"
+          width="100"
+        />
+        <progress className="progress" value={this.state.progress} max="100" />
       </div>
     );
   }
