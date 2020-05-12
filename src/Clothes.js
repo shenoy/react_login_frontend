@@ -5,7 +5,7 @@ class Clothes extends React.Component {
   render() {
     return (
       <div className="clothesPanel">
-        <div className="clothes-title">Clothes</div>
+        <div className="clothes-title">Favourite Warmer</div>
         <PieChart
           className="pieChart"
           data={[

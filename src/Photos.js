@@ -56,32 +56,46 @@ class Photos extends React.Component {
           className="file-input"
           type="file"
         />
-        <button className = "img-btn" onClick={this.handleSubmit}>Upload</button>
+        <button className="img-btn" onClick={this.handleSubmit}>
+          Upload
+        </button>
 
         <img
           className="image1"
-          src={this.state.url[0] || "http://via.placeholder.com/150 "}
+          src={
+            this.state.url[0] ||
+            "https://media.giphy.com/media/ivcVZnZAEqhs4/giphy.gif"
+          }
           alt="uploaded images"
           height="75"
           width="100"
         />
         <img
           className="image2"
-          src={this.state.url[1] || "http://via.placeholder.com/150 "}
+          src={
+            this.state.url[1] ||
+            "https://media.giphy.com/media/PnejBhs0NuLja/giphy.gif"
+          }
           alt="uploaded images"
           height="75"
           width="100"
         />
         <img
           className="image3"
-          src={this.state.url[2] || "http://via.placeholder.com/150 "}
+          src={
+            this.state.url[2] ||
+            "https://media.giphy.com/media/iNxmgFgnpuST0MdrIN/giphy.gif"
+          }
           alt="uploaded images"
           height="75"
           width="100"
         />
         <img
           className="image4"
-          src={this.state.url[3] || "http://via.placeholder.com/150 "}
+          src={
+            this.state.url[3] ||
+            "https://media.giphy.com/media/bZQvimlS7kuGc/giphy.gif"
+          }
           alt="uploaded images"
           height="75"
           width="100"

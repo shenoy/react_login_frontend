@@ -10,7 +10,7 @@ import WeatherPanel from "./WeatherPanel";
 import News from "./News";
 import Sports from "./Sports";
 import Clothes from "./Clothes";
-import Todos from "./Todos";
+import Tasks from "./Tasks";
 import Photos from "./Photos";
 
 class App extends React.Component {
@@ -78,7 +78,7 @@ class App extends React.Component {
                 <News />
                 <Sports />
                 <Clothes />
-                <Todos />
+                <Tasks />
                 <Photos />
               </div>
               <div className="logout">
