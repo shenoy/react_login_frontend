@@ -23,9 +23,9 @@ class WeatherPanel extends React.Component {
 
   async getWeather(city) {
     let url =
-      "/http://api.openweathermap.org/data/2.5/weather?q=" +
+      "http://api.openweathermap.org/data/2.5/weather?q=" +
       city +
-      "&units=metric&appid=d0a10211ea3d36b0a6423a104782130e";
+      "&units=metric&appid=8d13200bb1a764675803dcaeca891cd2";
     console.log(url);
     let res = await axios.get(url);
     this.temperature = Math.round(res.data.main.temp);
